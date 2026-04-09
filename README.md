@@ -38,11 +38,12 @@ sales-automation-pipeline/
 pip install -r requirements.txt
 
 3. Create a `.env` file in project root:
+   
 EMAIL_USER=your_email@gmail.com
 EMAIL_PASS=your_app_password
 EMAIL_RECEIVER=receiver_email@gmail.com
 
-4. Run Project:
+5. Run Project:
 python run_pipeline.py
 
 
